@@ -23,7 +23,7 @@ body {
   display: grid;
   grid-template-rows: 60px 60px 120px;
   gap: 20px;
-  padding: 58px 20px 50px;
+  padding: 60px 20px 70px;
   color: var(--text);
 }
 

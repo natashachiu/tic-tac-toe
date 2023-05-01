@@ -1,4 +1,6 @@
-const Player = (mark) => {
+"use strict";
+
+const player = (mark) => {
   const marker = mark;
   let name = "";
 
@@ -78,8 +80,8 @@ const displayGrid = (() => {
 })();
 
 const game = (() => {
-  const player1 = Player("X");
-  const player2 = Player("O");
+  const player1 = player("X");
+  const player2 = player("O");
   let gameOver = false;
   let activePlayer = player1;
   const gameEnd = document.querySelector(".game-end");
